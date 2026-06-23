@@ -16,10 +16,16 @@
     "debugger",
     "activeTab",
     "downloads",
-    "storage"
+    "storage",
+    "scripting",
+    "offscreen"
   ],
   "host_permissions": [
-    "<all_urls>"
+    "<all_urls>",
+    "https://www.youtube.com/*",
+    "https://youtube.com/*",
+    "https://www.facebook.com/*",
+    "https://facebook.com/*"
   ],
   "action": {
     "default_popup": "popup.html",
